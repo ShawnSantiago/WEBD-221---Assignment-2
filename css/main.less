@@ -15,7 +15,7 @@
 @total-width: 100%;
 
 .column(@x,@columns:@columns) {
-	display: inline;
+	display: block;
 	float: left;
 	width: @total-width*((((@gutter-width+@column-width)*@x)-@gutter-width) / @gridsystem-width);
 	margin: 0 @total-width*((@gutter-width*.5)/@gridsystem-width);
@@ -59,37 +59,42 @@ p {
 .container {
 	max-width: @gridsystem-width;
 	margin: 0 auto;
-
 	overflow: auto;
 }
 	
-
-
-// Navigation Styles
-nav
-{
-	max-width: @gridsystem-width;
-
-}
-
 #container {
+	max-width: 1703px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0 22px 0 22px;
 }
 
+
+// Navigation Styles
+nav
+{
+	width: 100%;
+	height: 108px;
+
+}
+
+
 #containerNav
 {
-
-	margin: 35px 0 35px 35px;
+	position: relative;
+	top:20%;
+	max-width: 1703px;
+	margin: 0 auto;
 	overflow: hidden;
 }
 
 #NavActual {
-	.column(6);
+	.column(7);
 	ul {
-	text-align: center;
+	text-align: left;
 	padding: 0;
+	padding-left: 7.5%;
+
 		li {
 		list-style-type: none;
     	display: inline;
@@ -150,22 +155,19 @@ nav
 #firstArticle {
 
 	img{
-		width: 100%;
+		width:100%;
+		max-width: 1703px;
 		margin-top: 50px;
 	}
 }
 
-ul#articleList {
+#articleList {
 	overflow: hidden;
 	padding: 0;
-	.column(6);
-	li {
 
-		list-style-type: none;
-		padding-bottom: 45px;
-		margin: 0;
+	article {
+		.column(4);
 		
-
 		h3 {
 			margin: 0;
 			padding: 12px 0 11px 0;
@@ -177,7 +179,7 @@ ul#articleList {
 
 		}
 		img {
-			width: 100%;
+			width: 100%
 		}
 	}
 }
