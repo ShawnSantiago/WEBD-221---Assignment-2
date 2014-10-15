@@ -1,3 +1,36 @@
+// GRID VARIABLES & MIXINS
+//------------------------------------
+// http://gridcalculator.dk - grid calculator
+
+// Change this values to change the size of the grid
+@column-width: 58;
+@gutter-width: 44;
+@columns: 12;
+
+// Utility variable — you should never need to modify this
+@gridsystem-width: (@column-width * @columns) + (@gutter-width * @columns) * 1px;
+
+// Set @total-width to 100% for a fluid layout
+//@total-width: @gridsystem-width;
+@total-width: 100%;
+
+.column(@x,@columns:@columns) {
+	display: inline;
+	float: left;
+	width: @total-width*((((@gutter-width+@column-width)*@x)-@gutter-width) / @gridsystem-width);
+	margin: 0 @total-width*((@gutter-width*.5)/@gridsystem-width);
+}
+
+// GLOBAL STYLES
+//----------------------------------------------------------
+
+@font-face {
+    font-family: plantin;
+    src: url(plantin.ttf);
+
+}
+
+// Fixes Box Model sizing issues
 *,
 *:before,
 *:after {
@@ -6,57 +39,162 @@
   box-sizing: border-box;
 }
 
-nav
-{
-	width: 100%;
-	height: 108px;
+body {
+	background :#f9f9f9;
+}
 
+h3{
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;	
+	font-size: 30px;
+	color: #474747;
+	
+}
+
+p {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 19px;
+	color: #555;
+}
+
+.container {
+	max-width: @gridsystem-width;
+	margin: 0 auto;
+
+	overflow: auto;
 }
 	
-.containerNav
+
+
+// Navigation Styles
+nav
 {
-	height: 100%;
-	position: relative;
+	max-width: @gridsystem-width;
+
+}
+
+#container {
 	margin: 0 auto;
-	text-align: left;
+	overflow: hidden;
+	padding: 0 22px 0 22px;
+}
+
+#containerNav
+{
+
+	margin: 35px 0 35px 35px;
 	overflow: hidden;
 }
 
+#NavActual {
+	.column(6);
+	ul {
+	text-align: center;
+	padding: 0;
+		li {
+		list-style-type: none;
+    	display: inline;
+			a {
+			text-decoration: none;
+			color:#555;
+			margin-right: 30px;
+			}
+		}
+	}
+}
+
+#logo {
+	.column(5);
+	overflow: hidden;
+
+}
 
 
 #u{
-	background: url("../img/u.svg") 0 3px no-repeat;
-	width: 162px;
-		height: 58px;
-		display: block;
-		position: absolute;
-		top: 0;
-		left: 0;
+	background: url("../img/u.svg") 0 9px no-repeat;
+	width: 30px;
+	height: 52px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	
 		
 
 }
 #niform{
 	background: url("../img/niform.svg") 0 3px no-repeat;
-	width: 162px;
-		height: 58px;
-		display: block;
-		position: absolute;
-		top: 0;
-		left: 0;
-		
+	width: 120px;
+	height: 58px;
+	display: block;
+	float: left;
+
 
 }
 #strategisk{
 	background: url("../img/strategisk.svg") 0 3px no-repeat;
 	width: 162px;
-		height: 58px;
-		display: block;
-		position: absolute;
-		top: 0;
-		left: 0;
+	height: 58px;
+	display: block;
+
 
 }
 
-section {
+//Articles 
+
+#header1 {
+	.column(6);
+	padding: 15px;
+	margin: 0;
+
+}
+
+#firstArticle {
+
+	img{
+		width: 100%;
+		margin-top: 50px;
+	}
+}
+
+ul#articleList {
+	overflow: hidden;
+	padding: 0;
+	.column(6);
+	li {
+
+		list-style-type: none;
+		padding-bottom: 45px;
+		margin: 0;
+		
+
+		h3 {
+			margin: 0;
+			padding: 12px 0 11px 0;
+			font-size: 18px;
+		}
+		p {
+			margin: 0;
+			padding: 0;
+
+		}
+		img {
+			width: 100%;
+		}
+	}
+}
+
+footer {
+	width:100%;
+	bottom: 0;
+	padding: 40px 0;
+	overflow: hidden;
+	background: #fcbb00;
+	color:#474747;
+	font-size: 14px;
+	p {
+		.column(4)
+	}
+	div#social {
+		.column(4)
+	}
 
 }
