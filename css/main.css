@@ -45,7 +45,6 @@ nav {
   overflow: hidden;
 }
 #NavActual {
-  display: block;
   float: left;
   width: 54.73856209%;
   margin: 0 1.79738562%;
@@ -65,7 +64,6 @@ nav {
   margin-right: 30px;
 }
 #logo {
-  display: block;
   float: left;
   width: 38.07189542%;
   margin: 0 1.79738562%;
@@ -93,7 +91,6 @@ nav {
   display: block;
 }
 #header1 {
-  display: block;
   float: left;
   width: 46.40522876%;
   margin: 0 1.79738562%;
@@ -106,14 +103,14 @@ nav {
   margin-top: 50px;
 }
 #articleList {
-  overflow: hidden;
+  overflow: auto;
   padding: 0;
 }
 #articleList article {
-  display: block;
   float: left;
-  width: 29.73856209%;
-  margin: 0 1.79738562%;
+  display: inline-block;
+  max-width: 530px;
+  padding: 10px;
 }
 #articleList article h3 {
   margin: 0;
@@ -137,13 +134,11 @@ footer {
   font-size: 14px;
 }
 footer p {
-  display: block;
   float: left;
   width: 29.73856209%;
   margin: 0 1.79738562%;
 }
 footer div#social {
-  display: block;
   float: left;
   width: 29.73856209%;
   margin: 0 1.79738562%;

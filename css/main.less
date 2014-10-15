@@ -15,7 +15,6 @@
 @total-width: 100%;
 
 .column(@x,@columns:@columns) {
-	display: block;
 	float: left;
 	width: @total-width*((((@gutter-width+@column-width)*@x)-@gutter-width) / @gridsystem-width);
 	margin: 0 @total-width*((@gutter-width*.5)/@gridsystem-width);
@@ -162,11 +161,14 @@ nav
 }
 
 #articleList {
-	overflow: hidden;
+	overflow: auto;
 	padding: 0;
 
 	article {
-		.column(4);
+		float: left;
+		display: inline-block;
+		max-width: 530px;
+		padding: 10px;
 		
 		h3 {
 			margin: 0;
