@@ -64,7 +64,7 @@ nav {
 #NavActual ul li a {
   text-decoration: none;
   color: #555;
-  margin-right: 30px;
+  margin-right: 10%;
 }
 #logo {
   float: left;
@@ -93,6 +93,46 @@ nav {
   height: 58px;
   display: block;
 }
+footer {
+  width: 100%;
+  padding: 40px 0;
+  background: #fcbb00;
+  color: #474747;
+}
+footer div {
+  float: left;
+  width: 65.49295775%;
+  margin: 0 0.58685446%;
+  max-height: 52px;
+}
+footer div p {
+  font-size: 18px;
+  margin: 0;
+  padding: 0 15px 0 100px;
+  float: left;
+}
+footer div a {
+  font-size: 24px;
+}
+footer div#social {
+  max-height: 52px;
+  float: left;
+  width: 32.15962441%;
+  margin: 0 0.58685446%;
+}
+footer div#social i {
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0.8;
+  text-align: center;
+  padding: 3% 0 0 3%;
+}
+footer div#social i:first-child {
+  padding-left: 65%;
+}
+footer div#social i:hover {
+  opacity: 1;
+}
 #header1 {
   float: left;
   width: 48.82629108%;
@@ -101,6 +141,8 @@ nav {
   margin: 0;
 }
 #firstArticle {
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
   padding: 15px 15px 45px 15px;
 }
 #firstArticle h3 {
@@ -116,6 +158,9 @@ nav {
   max-width: 1703px;
   margin-top: 50px;
 }
+#firstArticle:hover {
+  opacity: 0.9;
+}
 #articleList {
   overflow: auto;
   padding: 0;
@@ -125,7 +170,7 @@ nav {
   display: inline-block;
   max-width: 530px;
   vertical-align: top;
-  margin: 5px;
+  margin: 15px;
 }
 #articleList article h3 {
   margin: 0;
@@ -140,7 +185,11 @@ nav {
   font-size: 22px;
 }
 #articleList article img {
+  transition: -webkit-filter 2s ease-in-out;
   width: 100%;
+}
+#articleList article img:hover {
+  -webkit-filter: hue-rotate(240deg) saturate(3.3);
 }
 #scrollTop {
   width: 100%;
@@ -149,7 +198,7 @@ nav {
 }
 .my-icon {
   position: relative;
-  left: 92.5%;
+  left: 95.5%;
 }
 .my-icon > i {
   position: absolute;
@@ -167,27 +216,4 @@ nav {
   border-bottom: 16.615384615384617px solid #ef3e6b;
   left: 7.384615384615385px;
   top: 14.76923076923077px;
-}
-footer {
-  width: 100%;
-  bottom: 0;
-  padding: 40px 0;
-  overflow: hidden;
-  background: #fcbb00;
-  color: #474747;
-  font-size: 14px;
-}
-footer div {
-  float: left;
-  width: 65.49295775%;
-  margin: 0 0.58685446%;
-}
-footer div p {
-  padding: 0 15px 0 100px;
-  float: left;
-}
-footer div#social {
-  float: left;
-  width: 32.15962441%;
-  margin: 0 0.58685446%;
 }

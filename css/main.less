@@ -75,6 +75,7 @@ p {
 }
 
 
+
 // Navigation Styles
 nav
 {
@@ -105,7 +106,7 @@ nav
 			a {
 			text-decoration: none;
 			color:#555;
-			margin-right: 30px;
+			margin-right: 10%;
 			}
 		}
 	}
@@ -147,6 +148,51 @@ nav
 
 }
 
+footer {
+	
+	width:100%;
+	padding: 40px 0;
+	background: #fcbb00;
+	color:#474747;
+	div {
+		.column(8);
+		max-height: 52px;
+		p{
+			font-size: 18px;
+			margin: 0;
+			padding: 0 15px 0 100px;
+			float: left;
+        
+        	}
+        a {
+
+        	font-size: 24px;
+        }
+        }
+	
+	div#social {
+		max-height: 52px;
+		.column(4);
+		i{	-webkit-transition: opacity .2s ease-in-out;
+			transition: opacity .2s ease-in-out;
+			opacity: 0.8;
+			text-align: center;
+			padding: 3% 0 0 3%;
+
+			&:first-child{
+				padding-left: 65%;
+			}
+
+			&:hover {
+				opacity:1;
+			}
+		}
+	}
+
+}
+
+//Page 1 - Home
+
 //Articles 
 
 #header1 {
@@ -157,7 +203,8 @@ nav
 }
 
 #firstArticle {
-
+	-webkit-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
 	padding:15px 15px 45px 15px;
 
 	h3 {
@@ -175,7 +222,15 @@ nav
 		max-width: 1703px;
 		margin-top: 50px;
 	}
+
+	&:hover {
+		opacity: 0.9;
+	 
+	} 
+
 }
+
+
 
 #articleList {
 	overflow: auto;
@@ -187,7 +242,7 @@ nav
 		display: inline-block;
 		max-width: 530px;  
         vertical-align: top;
-        margin: 5px;
+        margin: 15px;
        
 		
 		h3 {
@@ -204,8 +259,13 @@ nav
 
 		}
 		img {
-			width: 100%
-		}
+			transition :-webkit-filter 2s ease-in-out;
+			width: 100%;
+				&:hover{
+					 -webkit-filter: hue-rotate(240deg) saturate(3.3); 
+
+			}
+		}		
 	}
 }
 
@@ -218,7 +278,7 @@ nav
 
 .my-icon {
 	position: relative;
-    left: 92.5%;
+    left: 95.5%;
 	&>i {
 	    position: absolute;
 	    display: inline-block;
@@ -238,28 +298,4 @@ nav
 	}
 }
 
-
-
-footer {
-	width:100%;
-	bottom: 0;
-	padding: 40px 0;
-	overflow: hidden;
-	background: #fcbb00;
-	color:#474747;
-	font-size: 14px;
-	div {
-		.column(8);
-		p{
-			
-			padding: 0 15px 0 100px;
-			float: left;
-        
-        	}
-        }
-	
-	div#social {
-		.column(4);
-	}
-
-}
+//Page 2 - About Me
