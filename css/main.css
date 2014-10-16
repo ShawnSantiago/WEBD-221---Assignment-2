@@ -9,29 +9,33 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 body {
   background: #f9f9f9;
 }
 h3 {
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  font-size: 30px;
+  font-family: "Lucida Bright", Georgia, serif;
+  font-size: 28px;
   color: #474747;
 }
 p {
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: lighter;
   font-size: 19px;
   color: #555;
 }
 .container {
-  max-width: 1224px;
+  max-width: 1704px;
   margin: 0 auto;
-  overflow: auto;
 }
 #container {
-  max-width: 1703px;
+  max-width: 1704px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 0 22px 0 22px;
 }
 nav {
   width: 100%;
@@ -40,19 +44,18 @@ nav {
 #containerNav {
   position: relative;
   top: 20%;
-  max-width: 1703px;
+  max-width: 1704px;
   margin: 0 auto;
   overflow: hidden;
 }
 #NavActual {
   float: left;
-  width: 54.73856209%;
-  margin: 0 1.79738562%;
+  width: 48.82629108%;
+  margin: 0 0.58685446%;
 }
 #NavActual ul {
   text-align: left;
   padding: 0;
-  padding-left: 7.5%;
 }
 #NavActual ul li {
   list-style-type: none;
@@ -65,8 +68,8 @@ nav {
 }
 #logo {
   float: left;
-  width: 38.07189542%;
-  margin: 0 1.79738562%;
+  width: 48.82629108%;
+  margin: 0 0.58685446%;
   overflow: hidden;
 }
 #u {
@@ -92,10 +95,21 @@ nav {
 }
 #header1 {
   float: left;
-  width: 46.40522876%;
-  margin: 0 1.79738562%;
+  width: 48.82629108%;
+  margin: 0 0.58685446%;
   padding: 15px;
   margin: 0;
+}
+#firstArticle {
+  padding: 15px 15px 45px 15px;
+}
+#firstArticle h3 {
+  color: #555;
+  font-size: 14px;
+}
+#firstArticle p {
+  color: #474747;
+  font-size: 22px;
 }
 #firstArticle img {
   width: 100%;
@@ -105,24 +119,54 @@ nav {
 #articleList {
   overflow: auto;
   padding: 0;
+  margin-bottom: 15px;
 }
 #articleList article {
-  float: left;
   display: inline-block;
   max-width: 530px;
-  padding: 10px;
+  vertical-align: top;
+  margin: 5px;
 }
 #articleList article h3 {
   margin: 0;
   padding: 12px 0 11px 0;
-  font-size: 18px;
+  color: #555;
+  font-size: 14px;
 }
 #articleList article p {
   margin: 0;
   padding: 0;
+  color: #474747;
+  font-size: 22px;
 }
 #articleList article img {
   width: 100%;
+}
+#scrollTop {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 73px;
+}
+.my-icon {
+  position: relative;
+  left: 92.5%;
+}
+.my-icon > i {
+  position: absolute;
+  display: inline-block;
+  border: 24px solid #ffffff;
+  border-bottom: 24px solid #ffffff;
+  left: 0px;
+  top: 0px;
+}
+.my-icon > i + i {
+  position: absolute;
+  display: inline-block;
+  border: 16.615384615384617px solid transparent;
+  margin-top: -16.61538462px;
+  border-bottom: 16.615384615384617px solid #ef3e6b;
+  left: 7.384615384615385px;
+  top: 14.76923076923077px;
 }
 footer {
   width: 100%;
@@ -133,13 +177,17 @@ footer {
   color: #474747;
   font-size: 14px;
 }
-footer p {
+footer div {
   float: left;
-  width: 29.73856209%;
-  margin: 0 1.79738562%;
+  width: 65.49295775%;
+  margin: 0 0.58685446%;
+}
+footer div p {
+  padding: 0 15px 0 100px;
+  float: left;
 }
 footer div#social {
   float: left;
-  width: 29.73856209%;
-  margin: 0 1.79738562%;
+  width: 32.15962441%;
+  margin: 0 0.58685446%;
 }
