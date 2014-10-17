@@ -50,8 +50,8 @@ nav {
 }
 #NavActual {
   float: left;
-  width: 48.82629108%;
-  margin: 0 0.58685446%;
+  width: 48.82629107981221%;
+  margin: 0 0.5868544600938966%;
 }
 #NavActual ul {
   text-align: left;
@@ -68,8 +68,8 @@ nav {
 }
 #logo {
   float: left;
-  width: 48.82629108%;
-  margin: 0 0.58685446%;
+  width: 48.82629107981221%;
+  margin: 0 0.5868544600938966%;
   overflow: hidden;
 }
 #u {
@@ -100,25 +100,30 @@ footer {
   color: #474747;
 }
 footer div {
-  float: left;
-  width: 65.49295775%;
-  margin: 0 0.58685446%;
   max-height: 52px;
 }
 footer div p {
   font-size: 18px;
   margin: 0;
-  padding: 0 15px 0 100px;
+  padding: 0 15px 0 15px;
   float: left;
+}
+footer div p:last-child {
+  padding-left: 100px;
 }
 footer div a {
   font-size: 24px;
 }
+footer div#box {
+  float: left;
+  width: 65.49295774647888%;
+  margin: 0 0.5868544600938966%;
+}
 footer div#social {
   max-height: 52px;
   float: left;
-  width: 32.15962441%;
-  margin: 0 0.58685446%;
+  width: 32.159624413145536%;
+  margin: 0 0.5868544600938966%;
 }
 footer div#social i {
   -webkit-transition: opacity 0.2s ease-in-out;
@@ -135,8 +140,8 @@ footer div#social i:hover {
 }
 #header1 {
   float: left;
-  width: 48.82629108%;
-  margin: 0 0.58685446%;
+  width: 48.82629107981221%;
+  margin: 0 0.5868544600938966%;
   padding: 15px;
   margin: 0;
 }
@@ -185,11 +190,11 @@ footer div#social i:hover {
   font-size: 22px;
 }
 #articleList article img {
-  transition: -webkit-filter 2s ease-in-out;
   width: 100%;
+  transition: -webkit-filter 1s ease-in-out;
 }
 #articleList article img:hover {
-  -webkit-filter: hue-rotate(240deg) saturate(3.3);
+  -webkit-filter: hue-rotate(240deg);
 }
 #scrollTop {
   width: 100%;
@@ -212,15 +217,15 @@ footer div#social i:hover {
   position: absolute;
   display: inline-block;
   border: 16.615384615384617px solid transparent;
-  margin-top: -16.61538462px;
+  margin-top: -16.615384615384617px;
   border-bottom: 16.615384615384617px solid #ef3e6b;
   left: 7.384615384615385px;
   top: 14.76923076923077px;
 }
 #topSection article {
   float: left;
-  width: 48.82629108%;
-  margin: 0 0.58685446%;
+  width: 48.82629107981221%;
+  margin: 0 0.5868544600938966%;
 }
 #topSection p {
   margin: 0;
@@ -234,13 +239,13 @@ footer div#social i:hover {
 }
 #topSection div#email {
   float: left;
-  width: 98.82629108%;
-  margin: 0 0.58685446%;
+  width: 98.82629107981221%;
+  margin: 0 0.5868544600938966%;
 }
 #topSection div#address {
   float: left;
-  width: 48.82629108%;
-  margin: 0 0.58685446%;
+  width: 48.82629107981221%;
+  margin: 0 0.5868544600938966%;
 }
 #map {
   margin: 10px;
@@ -291,4 +296,7 @@ footer div#social i:hover {
 }
 #contactSection ul {
   margin-left: 50%;
+}
+@media (max-width: 1704px) {
+  
 }

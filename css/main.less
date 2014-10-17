@@ -154,21 +154,28 @@ footer {
 	padding: 40px 0;
 	background: #fcbb00;
 	color:#474747;
+
 	div {
-		.column(8);
+		
 		max-height: 52px;
+		
 		p{
 			font-size: 18px;
 			margin: 0;
-			padding: 0 15px 0 100px;
+			padding: 0 15px 0 15px;
 			float: left;
-        
+        	&:last-child {
+				padding-left: 100px; 
         	}
+        }
         a {
 
         	font-size: 24px;
         }
         }
+    div#box {
+    	.column(8);
+    }
 	
 	div#social {
 		max-height: 52px;
@@ -217,7 +224,7 @@ footer {
 		font-size: 22px;
 	}
 
-	img{
+	img {
 		width:100%;
 		max-width: 1703px;
 		margin-top: 50px;
@@ -259,11 +266,12 @@ footer {
 
 		}
 		img {
-			transition :-webkit-filter 2s ease-in-out;
+			
 			width: 100%;
-				&:hover{
-					 -webkit-filter: hue-rotate(240deg) saturate(3.3); 
+			transition: -webkit-filter 1s ease-in-out;
 
+			&:hover {
+				-webkit-filter: hue-rotate(240deg); 
 			}
 		}		
 	}
@@ -407,4 +415,8 @@ footer {
 		margin-left:50%;
 	}
 
+}
+
+@media (max-width:1704px) {
+	
 }
