@@ -217,3 +217,78 @@ footer div#social i:hover {
   left: 7.384615384615385px;
   top: 14.76923076923077px;
 }
+#topSection article {
+  float: left;
+  width: 48.82629108%;
+  margin: 0 0.58685446%;
+}
+#topSection p {
+  margin: 0;
+}
+#topSection div {
+  padding: 15px;
+}
+#topSection h4 {
+  font-size: 14px;
+  opacity: 0.5;
+}
+#topSection div#email {
+  float: left;
+  width: 98.82629108%;
+  margin: 0 0.58685446%;
+}
+#topSection div#address {
+  float: left;
+  width: 48.82629108%;
+  margin: 0 0.58685446%;
+}
+#map {
+  margin: 10px;
+}
+#gallery h1 {
+  margin-left: 15px;
+}
+#pictureSection {
+  padding: 0;
+}
+#pictureSection h2 {
+  opacity: 0.5;
+}
+#pictureSection a {
+  color: #ef3e6b;
+}
+#pictureSection a p {
+  color: #ef3e6b;
+}
+#pictureSection li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  padding: 12px 12px 60px 12px;
+}
+#pictureNav {
+  padding: 0;
+}
+#pictureNav li {
+  margin-left: 15px;
+  margin-right: 32px;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+}
+#mapText p {
+  padding-left: 50%;
+}
+#contactSection h1 {
+  max-height: 111px;
+  padding: 15px;
+  opacity: 0.6;
+  margin-left: 50%;
+  margin-bottom: 5%;
+}
+#contactSection p {
+  margin-left: 50%;
+}
+#contactSection ul {
+  margin-left: 50%;
+}
