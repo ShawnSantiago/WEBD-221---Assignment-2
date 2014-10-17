@@ -417,6 +417,125 @@ footer {
 
 }
 
-@media (max-width:1704px) {
+
+@media only screen 
+and (min-width : 1024px) 
+and (max-width:1704px) {
+
+	.container {
+		max-width: 1180px;
+		
+	}
+
+		
+	#container {
+		max-width: 1180px;
+	}
+
+	#containerNav
+	{
+
+		top:20%;
+		max-width: 1180px;
+
+	}
+		
+	#articleList {
+		
+
+		article {
+			.column(6);			
+			max-width: none;  
+	     	
+		}
+	}
+
+//about me page 
+
+#pictureSection {
+	li {
+		.column(3);
+		padding: 12px 12px 60px 12px;
+		img{
+			width: 100%;
+		}
+	}
+}
+
+
+}
+
+@media only screen 
+and (max-width : 1024px) {
+.container {
+
+		max-width: 1024px;
+		
+	}
+
+		
+	#container {
+
+		max-width: 1024px;
+
+	}
+
+	#containerNav
+	{
+
+		top:20%;
+		max-width: 1024px;
+
+	}
+
+footer {
+
+	div {
+		max-height: none;
+		p{
+
+        	&:last-child {
+				padding-left: 15px; 
+        	}
+        }
+    div#box {
+    	.column(5);
+    }
 	
+	div#social {
+		max-height: 52px;
+		.column(7);
+
+	}
+	}
+}	
+	#articleList {
+		
+
+		article {
+			.column(12);
+			
+			max-width: none;  
+	     	
+				
+		}
+	}
+#header1 {
+	.column(12);
+	padding: 15px;
+	margin: 0;
+
+}
+
+#pictureSection {
+	li {
+		.column(12);
+
+		img{
+			width: 100%;
+		}
+	}
+}
+
+
 }

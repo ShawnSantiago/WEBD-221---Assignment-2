@@ -297,6 +297,80 @@ footer div#social i:hover {
 #contactSection ul {
   margin-left: 50%;
 }
-@media (max-width: 1704px) {
-  
+@media only screen and (min-width: 1024px) and (max-width: 1704px) {
+  .container {
+    max-width: 1180px;
+  }
+  #container {
+    max-width: 1180px;
+  }
+  #containerNav {
+    top: 20%;
+    max-width: 1180px;
+  }
+  #articleList article {
+    float: left;
+    width: 48.82629107981221%;
+    margin: 0 0.5868544600938966%;
+    max-width: none;
+  }
+  #pictureSection li {
+    float: left;
+    width: 23.826291079812208%;
+    margin: 0 0.5868544600938966%;
+    padding: 12px 12px 60px 12px;
+  }
+  #pictureSection li img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  #container {
+    max-width: 1024px;
+  }
+  #containerNav {
+    top: 20%;
+    max-width: 1024px;
+  }
+  footer div {
+    max-height: none;
+  }
+  footer div p:last-child {
+    padding-left: 15px;
+  }
+  footer div div#box {
+    float: left;
+    width: 40.49295774647887%;
+    margin: 0 0.5868544600938966%;
+  }
+  footer div div#social {
+    max-height: 52px;
+    float: left;
+    width: 57.159624413145536%;
+    margin: 0 0.5868544600938966%;
+  }
+  #articleList article {
+    float: left;
+    width: 98.82629107981221%;
+    margin: 0 0.5868544600938966%;
+    max-width: none;
+  }
+  #header1 {
+    float: left;
+    width: 98.82629107981221%;
+    margin: 0 0.5868544600938966%;
+    padding: 15px;
+    margin: 0;
+  }
+  #pictureSection li {
+    float: left;
+    width: 98.82629107981221%;
+    margin: 0 0.5868544600938966%;
+  }
+  #pictureSection li img {
+    width: 100%;
+  }
 }
