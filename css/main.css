@@ -50,8 +50,8 @@ nav {
 }
 #NavActual {
   float: left;
-  width: 48.82629107981221%;
-  margin: 0 0.5868544600938966%;
+  width: 48.82629108%;
+  margin: 0 0.58685446%;
 }
 #NavActual ul {
   text-align: left;
@@ -68,8 +68,8 @@ nav {
 }
 #logo {
   float: left;
-  width: 48.82629107981221%;
-  margin: 0 0.5868544600938966%;
+  width: 48.82629108%;
+  margin: 0 0.58685446%;
   overflow: hidden;
 }
 #u {
@@ -116,14 +116,14 @@ footer div a {
 }
 footer div#box {
   float: left;
-  width: 65.49295774647888%;
-  margin: 0 0.5868544600938966%;
+  width: 65.49295775%;
+  margin: 0 0.58685446%;
 }
 footer div#social {
   max-height: 52px;
   float: left;
-  width: 32.159624413145536%;
-  margin: 0 0.5868544600938966%;
+  width: 32.15962441%;
+  margin: 0 0.58685446%;
 }
 footer div#social i {
   -webkit-transition: opacity 0.2s ease-in-out;
@@ -140,8 +140,8 @@ footer div#social i:hover {
 }
 #header1 {
   float: left;
-  width: 48.82629107981221%;
-  margin: 0 0.5868544600938966%;
+  width: 48.82629108%;
+  margin: 0 0.58685446%;
   padding: 15px;
   margin: 0;
 }
@@ -217,15 +217,15 @@ footer div#social i:hover {
   position: absolute;
   display: inline-block;
   border: 16.615384615384617px solid transparent;
-  margin-top: -16.615384615384617px;
+  margin-top: -16.61538462px;
   border-bottom: 16.615384615384617px solid #ef3e6b;
   left: 7.384615384615385px;
   top: 14.76923076923077px;
 }
 #topSection article {
   float: left;
-  width: 48.82629107981221%;
-  margin: 0 0.5868544600938966%;
+  width: 48.82629108%;
+  margin: 0 0.58685446%;
 }
 #topSection p {
   margin: 0;
@@ -239,13 +239,13 @@ footer div#social i:hover {
 }
 #topSection div#email {
   float: left;
-  width: 98.82629107981221%;
-  margin: 0 0.5868544600938966%;
+  width: 98.82629108%;
+  margin: 0 0.58685446%;
 }
 #topSection div#address {
   float: left;
-  width: 48.82629107981221%;
-  margin: 0 0.5868544600938966%;
+  width: 48.82629108%;
+  margin: 0 0.58685446%;
 }
 #map {
   margin: 10px;
@@ -310,14 +310,14 @@ footer div#social i:hover {
   }
   #articleList article {
     float: left;
-    width: 48.82629107981221%;
-    margin: 0 0.5868544600938966%;
+    width: 48.82629108%;
+    margin: 0 0.58685446%;
     max-width: none;
   }
   #pictureSection li {
     float: left;
-    width: 23.826291079812208%;
-    margin: 0 0.5868544600938966%;
+    width: 23.82629108%;
+    margin: 0 0.58685446%;
     padding: 12px 12px 60px 12px;
   }
   #pictureSection li img {
@@ -343,32 +343,32 @@ footer div#social i:hover {
   }
   footer div div#box {
     float: left;
-    width: 40.49295774647887%;
-    margin: 0 0.5868544600938966%;
+    width: 40.49295775%;
+    margin: 0 0.58685446%;
   }
   footer div div#social {
     max-height: 52px;
     float: left;
-    width: 57.159624413145536%;
-    margin: 0 0.5868544600938966%;
+    width: 57.15962441%;
+    margin: 0 0.58685446%;
   }
   #articleList article {
     float: left;
-    width: 98.82629107981221%;
-    margin: 0 0.5868544600938966%;
+    width: 98.82629108%;
+    margin: 0 0.58685446%;
     max-width: none;
   }
   #header1 {
     float: left;
-    width: 98.82629107981221%;
-    margin: 0 0.5868544600938966%;
+    width: 98.82629108%;
+    margin: 0 0.58685446%;
     padding: 15px;
     margin: 0;
   }
   #pictureSection li {
     float: left;
-    width: 98.82629107981221%;
-    margin: 0 0.5868544600938966%;
+    width: 48.82629108%;
+    margin: 0 0.58685446%;
   }
   #pictureSection li img {
     width: 100%;

@@ -394,7 +394,7 @@ footer {
 	}
 }
 
-//Contact page
+//Page 3 - Contact page
 
 
 
@@ -417,6 +417,7 @@ footer {
 
 }
 
+//Media Queries
 
 @media only screen 
 and (min-width : 1024px) 
@@ -426,7 +427,6 @@ and (max-width:1704px) {
 		max-width: 1180px;
 		
 	}
-
 		
 	#container {
 		max-width: 1180px;
@@ -434,15 +434,12 @@ and (max-width:1704px) {
 
 	#containerNav
 	{
-
 		top:20%;
 		max-width: 1180px;
 
-	}
-		
+	}		
 	#articleList {
 		
-
 		article {
 			.column(6);			
 			max-width: none;  
@@ -468,24 +465,17 @@ and (max-width:1704px) {
 @media only screen 
 and (max-width : 1024px) {
 .container {
-
 		max-width: 1024px;
-		
 	}
-
-		
+	
 	#container {
-
 		max-width: 1024px;
-
 	}
 
 	#containerNav
 	{
-
 		top:20%;
 		max-width: 1024px;
-
 	}
 
 footer {
@@ -493,49 +483,41 @@ footer {
 	div {
 		max-height: none;
 		p{
-
         	&:last-child {
 				padding-left: 15px; 
         	}
-        }
+        }    
     div#box {
     	.column(5);
-    }
-	
+    }	
 	div#social {
 		max-height: 52px;
 		.column(7);
-
-	}
+		}
 	}
 }	
 	#articleList {
-		
-
 		article {
-			.column(12);
-			
-			max-width: none;  
-	     	
-				
+			.column(12);	
+			max-width: none;  		
 		}
 	}
 #header1 {
 	.column(12);
 	padding: 15px;
 	margin: 0;
-
 }
 
 #pictureSection {
 	li {
-		.column(12);
+		.column(6);
 
 		img{
 			width: 100%;
 		}
 	}
 }
+
 
 
 }
